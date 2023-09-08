@@ -10,10 +10,11 @@ int main(void)
 {
 	int n;
 	/*Last digit*/
-	int d = n % 10;
+	int d;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
+	d = n % 10;
 	/*BLOCK*/
 	if (d > 0)
 	{
