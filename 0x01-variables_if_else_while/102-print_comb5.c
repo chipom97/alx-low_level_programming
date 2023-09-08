@@ -6,22 +6,21 @@
 */
 int main(void)
 {
-	int hundreds, tens, ones;
+	int num1, num2;
 
-	for (hundreds = 0; hundreds <= 7; hundreds++)
+	for (num1 = 0; num1 <= 98; num1++)
 	{
-		for (tens = hundreds + 1; tens <= 8; tens++)
+		for (num2 = num1 + 1; num2 <= 99; num2++)
 		{
-			for (ones = tens + 1; ones <= 9; ones++)
+			putchar((num1 / 10) + '0');
+			putchar((num1 % 10) + '0');
+			putchar(' ');
+			putchar((num2 / 10) + '0');
+			putchar((num2 % 10) + '0');
+			if (num1 != 98 || num2 != 99)
 			{
-				putchar(hundreds + '0');
-				putchar(tens + '0');
-				putchar(ones + '0');
-				if (hundreds != 7 || tens != 8 || ones != 9)
-				{
-					putchar(',');
-					putchar(' ');
-				}
+				putchar(',');
+				putchar(' ');
 			}
 		}
 	}
