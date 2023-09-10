@@ -1,10 +1,12 @@
 #include <stdio.h>
-/*** main - entry point
+#include<unistd.h>
+/**
+* main - entry point
 *
-* Return: Always 0 (Success)
+* Return: Always 1 (Success)
 */
 int main(void)
 {
-perror ("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n");
+write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 60);
 return (1);
 }
