@@ -1,0 +1,6 @@
+#ifndef my_header
+#define my_header
+
+void myPrint(const char* str);
+
+#endif
