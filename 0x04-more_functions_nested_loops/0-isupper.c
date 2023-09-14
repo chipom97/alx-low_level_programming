@@ -1,7 +1,7 @@
 #include "main.h"
 /**
 * int _isupper - check letter
-*
+* @c - letter
 * Return: Always 0
 */
 int _isupper(int c)
