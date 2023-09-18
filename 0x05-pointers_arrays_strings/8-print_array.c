@@ -21,8 +21,4 @@ printf(", ");
 }
 printf("\n");
 }
-else
-{
-printf("Invalid input\n");
-}
 }
