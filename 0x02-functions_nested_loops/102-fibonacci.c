@@ -7,10 +7,10 @@
 */
 int main(void)
 {
-unsigned long long a = 1, b = 2, c;
+unsigned long a = 1, b = 2, c;
 int count = 2;
 
-printf("%llu, %llu", a, b);
+printf("%lu, %lu", a, b);
 while (count < 50)
 {
 c = a + b;
@@ -18,7 +18,7 @@ if (count < 50)
 {
 printf(",");
 }
-printf(" %llu", c);
+printf(" %lu", c);
 a = b;
 b = c;
 count++;
