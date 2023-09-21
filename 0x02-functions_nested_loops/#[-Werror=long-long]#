@@ -1,0 +1,8 @@
+   10 | long long a = 1, b = 2, c;
+         |      ^~~~
+	 102-fibonacci.c:13:8: error: ISO C90 does not support the ‘ll’ gnu_printf length modifier [-Werror=format=]
+	    13 | printf("%lld, %lld", a, b);
+	          |        ^~~~~~~~~~~~
+		  102-fibonacci.c:13:8: error: ISO C90 does not support the ‘ll’ gnu_printf length modifier [-Werror=format=]
+		  102-fibonacci.c:21:8: error: ISO C90 does not support the ‘ll’ gnu_printf length modifier [-Werror=format=]
+		     21 | printf(" %lld", c);1;95;0c
