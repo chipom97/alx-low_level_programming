@@ -11,10 +11,10 @@ unsigned long a = 1, b = 2, c;
 int count = 2;
 
 printf("%lu, %lu", a, b);
-while (count < 98)
+while (count < 95)
 {
 c = a + b;
-if (count < 98)
+if (count < 95)
 {
 printf(",");
 }
