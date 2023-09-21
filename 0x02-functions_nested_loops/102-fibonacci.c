@@ -7,14 +7,18 @@
 */
 int main(void)
 {
-int a = 1, b = 2, c;
+long long a = 1, b = 2, c;
 int count = 2;
 
-printf("%d, %d, ", a, b);
+printf("%lld, %lld", a, b);
 while (count < 50)
 {
 c = a + b;
-printf("%d, ", c);
+if (count < 50)
+{
+printf(",");
+}
+printf(" %lld", c);
 a = b;
 b = c;
 count++;
