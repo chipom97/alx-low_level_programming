@@ -1,1 +1,0 @@
-Learning about Static libraries
