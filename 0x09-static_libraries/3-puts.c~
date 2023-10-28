@@ -1,0 +1,7 @@
+#include "main.h"
+/**
+* _puts - function
+* @s: string
+* Return: string
+*/
+void _puts(char *s)
