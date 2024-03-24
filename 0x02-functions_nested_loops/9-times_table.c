@@ -1,0 +1,36 @@
+#include "main.h"
+/**
+ * times_table - prints the 9 times table, starting with 0.
+ *
+ * Return: (0) Success.
+ */
+void times_table(void)
+{
+int down, across, product, first_num, last_num;
+
+for (down = 0; down <= 9; down++)
+{
+_putchar('0');
+for (across = 1; across <= 9; across++)
+{
+product = (across * down);
+first_num = (product / 10);
+last_num = (product % 10);
+if (product < 10)
+{
+_putchar(',');
+_putchar(' ');
+_putchar(' ');
+_putchar('0' + product);
+}
+else
+{
+_putchar(',');
+_putchar(' ');
+_putchar('0' + first_num);
+_putchar('0' + last_num);
+}
+}
+_putchar('\n');
+}
+}
