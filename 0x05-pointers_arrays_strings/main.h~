@@ -1,0 +1,10 @@
+#ifndef header_file
+#define header_file
+
+#include <stdio.h>
+int _putchar(char c);
+
+
+
+
+#endif /* header_file */
