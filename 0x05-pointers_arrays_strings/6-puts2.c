@@ -18,5 +18,5 @@ if (index % 2 == 0)
 _putchar(str[index]);
 }
 }
- putchar('\n');
+_putchar('\n');
 }
