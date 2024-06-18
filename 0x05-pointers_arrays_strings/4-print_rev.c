@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include "main.h"
+
+/**
+ * print_rev - reverse string
+ * @s: string
+ * Return: string
+ */
+
+void print_rev(char *s)
+{ 
+int index;
+index = 0;
+while (s[index] != '\0')
+{
+index++;
+}
+index = index - 1;
+while (index >= 0)
+{
+_putchar(s[index]);
+index--;
+}
+_putchar('\n');
+}
