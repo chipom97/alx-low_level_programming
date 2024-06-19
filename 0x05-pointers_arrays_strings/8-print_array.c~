@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include "main.h"
+
+/**
+ * print_array - print array
+ * @a: array
+ * @n: integer
+ * Return: elements
+ */
+
+void print_array(int *a, int n)
+{
+int i;
+for (i = 0; i < n; i++)
+{
+if (i == (n - 1))
+{
+prinf("%i", a[i]);
+}
+else
+{
+printf("%i, ", a[i]);
+}
+}
+putchar('\n');
+}
