@@ -24,7 +24,7 @@ index = (len / 2);
 
 else
 {
-index = ((len - 1) / 2);
+index = ((len / 2) + 1);
 }
 
 while (str[index] != '\0')
