@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _putchar - writes the character c to stdout
+ * main - entry point
  *
  * Return: On success 1.
  */
