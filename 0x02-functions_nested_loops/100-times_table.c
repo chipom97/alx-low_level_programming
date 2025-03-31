@@ -23,41 +23,41 @@ if (p >= 100)
 p0 = (p / 100);
 p1 = ((p / 10) % 10);
 {
-putchar(',');
-putchar(' ');
-putchar('0' + p0);
-putchar('0' + p1);
-putchar('0' + p2);      
+_putchar(',');
+_putchar(' ');
+_putchar('0' + p0);
+_putchar('0' + p1);
+_putchar('0' + p2);      
 } 
 }
 else if (p >= 10)
 {
 p1 = (p / 10);
 {
-putchar(',');
-putchar(' ');
-putchar(' ');
-putchar('0' + p1);
-putchar('0' + p2);
+_putchar(',');
+_putchar(' ');
+_putchar(' ');
+_putchar('0' + p1);
+_putchar('0' + p2);
 } 
 }
 else
 {
 if (col == 0)
 {
-putchar('0' + p);
+_putchar('0' + p);
 }
 else
 {
-putchar(',');
-putchar(' ');
-putchar(' ');
-putchar(' ');
-putchar('0' + p);
+_putchar(',');
+_putchar(' ');
+_putchar(' ');
+_putchar(' ');
+_putchar('0' + p);
 }
 }
 }
-putchar('\n');
+_putchar('\n');
 }
 }
 }
