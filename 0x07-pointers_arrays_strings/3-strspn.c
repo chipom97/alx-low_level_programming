@@ -11,7 +11,7 @@ unsigned int _strspn(char *s, char *accept)
 	int i, j;
 	int letter_found;
 
-	for (i = 0; s[i] != '\0'; i++)    
+	for (i = 0; s[i] != '\0'; i++)
 	{
 		letter_found = 0;
 
@@ -21,11 +21,11 @@ unsigned int _strspn(char *s, char *accept)
 			{
 				letter_found = 1;
 				break;
-            }
+			}
 		}
 		if (letter_found == 0)
 		return (i);
- 
+
 	}
 	return (i);
 }
