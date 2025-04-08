@@ -1,10 +1,20 @@
 #include "main.h"
 
 /**
- * _strpbrk - function that searches a string for any of a set of bytes.
- * @s: string
- * @accept: sub-string
- * Return: the new string
+ * print_chessboard - print chessboard
+ * @a: array
+ * Return: nothing
  */
-char *_strpbrk(char *s, char *accept)
+void print_chessboard(char (*a)[8])
 {
+	int i, j;
+
+	for (i = 0; i < 8; i++)
+	{
+		for (j = 0; j < 8; j++)
+		{
+			_putchar(a[i][j]);
+		}
+		_putchar('\n');
+	}
+}
