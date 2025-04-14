@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-* main - Entry point
+* main - a program that prints its name
 * @argc: argument count
 * @argv: argument vector
 * Return: Always 0 (Success)
