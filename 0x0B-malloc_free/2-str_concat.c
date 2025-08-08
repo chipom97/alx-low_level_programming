@@ -18,7 +18,7 @@ char *str_concat(char *s1, char *s2)
 	if (s1 == NULL)
 		s1 = "";
 	if (s2 == NULL)
-		s2 ="";
+		s2 = "";
 
 	while (s1[len1] != '\0')
 		len1++;
@@ -37,11 +37,11 @@ char *str_concat(char *s1, char *s2)
 	}
 
 	while (l < len2)
-    {
-        new_string[k] = s2[l];
-        k++;
+	{
+		new_string[k] = s2[l];
+		k++;
 		l++;
-    }
+	}
 
 	new_string[len1 + len2] = '\0';
 
